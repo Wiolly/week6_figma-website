@@ -5,58 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/style.css" />
     <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li>Dashboard</li>
-        <li>Explore</li>
-        <li>Dictionary</li>
-        <li>Schedule</li>
-        <li>Settings</li>
-        <li>Log Out</li>
-        <li>
-          Upgrade to PRO. Unlock premium features for free.<button>
-            TRY NOW
-          </button>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <div class="menu1">
-        <div class="search"></div>
-      </div>
-      <div class="h3m">
-        <h3>Word Sets</h3>
-        <div class="menu2">
-          <div class="m2 menu2_1">
-            <img src="./assets/images/menu1.png" alt="Books and Library" />
-          </div>
-          <div class="m2 menu2_2">
-            <img src="./assets/images/menu2.png" alt="Countries and cities" />
-          </div>
-          <div class="m2 menu2_3">
-            <img src="./assets/images/menu3.png" alt="What is o'clock now?" />
-          </div>
+    <div class="wrapper_out">
+      <div class="wrapper_in">
+        <div class="container">
+          <nav>
+            <ul>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/home.png"
+                    alt="home_logo"
+                  />Dashboard</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/explore.png"
+                    alt="exprole_logo"
+                  />Explore</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/dictionary.png"
+                    alt="dictionary_logo"
+                  />Dictionary</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/schedule.png"
+                    alt="book_logo"
+                  />Schedule</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/settings.png"
+                    alt="settings_logo"
+                  />Settings</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    class="navlogo"
+                    src="./assets/images/nav/log out.png"
+                    alt="logout_logo"
+                  />Log Out</a
+                >
+              </li>
+              <div class="upgrade_wrapper">
+                <div class="upgrade">
+                  <h5>Upgrade to PRO.</h5>
+                  <p class="unlock">Unlock premium features for free.</p>
+                  <button><a href="#"> TRY NOW </a></button>
+                </div>
+              </div>
+            </ul>
+          </nav>
+          <main>
+            <div class="menu1">
+              <div class="search"></div>
+            </div>
+            <div class="h3m">
+              <h3>Word Sets</h3>
+              <div class="menu2">
+                <div class="m2">
+                  <img
+                    src="./assets/images/menu2/book1.png"
+                    alt="Books and Library"
+                  />
+                  <h4>Books and Library</h4>
+                </div>
+                <div class="m2">
+                  <img
+                    src="./assets/images/menu2/globe2.png"
+                    alt="Countries and cities"
+                  />
+                  <h4>Countries and cities</h4>
+                </div>
+                <div class="m2">
+                  <img
+                    src="./assets/images/menu2/clock3.png"
+                    alt="What is o'clock now?"
+                  />
+                  <h4>What is o'clock now?</h4>
+                </div>
+              </div>
+            </div>
+            <div class="menu3">
+              <h3>Statistics</h3>
+              <div class="img">
+                <img src="./assets/images/menu3_1.png" alt="Statistics" />
+              </div>
+            </div>
+          </main>
+          <aside>
+            <div class="profile">
+              <div class="avatar">
+                <img src="./assets/images/avatar/avatar.png" alt="avatar" />
+              </div>
+              <div class="profile_info">
+                <div class="profile_name">
+                  Annie Leonchart
+                  <span class="email">annie_leonchart@mail.com</span>
+                </div>
+                <div class="profile_container">
+                  <div class="profile_lessons">
+                    <span class="prof1">Lessons</span>
+                    <span class="prof2"> 24 </span>
+                  </div>
+                  <div class="profile_terms">
+                    <span class="prof1">Terms</span>
+                    <span class="prof2"> 1 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="aside1">
+              <h3>Quick Start</h3>
+              <div class="side_box">
+                <img src="./assets/images/side/exam.png" alt="exam-logo" />
+                <div class="box1">
+                  <span class="box_a">Exam</span
+                  ><span class="box_b"> 20 min</span>
+                </div>
+              </div>
+              <div class="side_box">
+                <img
+                  src="./assets/images/side/writing.png"
+                  alt="writing-logo"
+                />
+                <div class="box1">
+                  <span class="box_a">Writing</span>
+                  <span class="box_b">15 min</span>
+                </div>
+              </div>
+              <div class="side_box">
+                <img
+                  src="./assets/images/side/grammar.png"
+                  alt="grammar-logo"
+                />
+                <div class="box1">
+                  <span class="box_a">Grammar</span>
+                  <span class="box_b">17 min</span>
+                </div>
+              </div>
+            </div>
+          </aside>
         </div>
       </div>
-      <div class="menu3">
-        <h3>Statistics</h3>
-        <div class="img">
-          <img src="./assets/images/menu3_1.png" alt="Statistics" />
-        </div>
-      </div>
-    </main>
-    <aside>
-      <div class="profile">
-        <img src="./assets/images/aside 1.png" alt="profile" />
-      </div>
-      <div class="aside1">
-        <h3>Quick Start</h3>
-      </div>
-    </aside>
+    </div>
   </body>
 </html>
